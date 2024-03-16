@@ -26,8 +26,8 @@ dia_elegido = 1
 print('Fecha eleguida Precios')
 print('Dia: ', dia_elegido)
 print('Precio: ', precio_eleguido)
-for dia in range(2,31):
-    if dia <10:
+for dia in range(2, 31):
+    if dia < 10:
         url = ('https://flybondi.com/ar/search/results?adults=1&children=0&currency=ARS&departureDate=2024-04-'+
                '0'+str(dia)+'&fromCityCode=BUE&infants=0&toCityCode=COR&utm_origin=search_bar')
     else:
