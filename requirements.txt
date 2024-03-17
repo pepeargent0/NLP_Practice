@@ -5,3 +5,4 @@ selenium
 matplotlib
 gdown
 PyPDF2
+langchain
